@@ -1,5 +1,5 @@
 FROM ubuntu:22.04
-
+MAINTAINER vistalba
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install --no-install-recommends -y ca-certificates perl coreutils vim curl openssh-client locales
