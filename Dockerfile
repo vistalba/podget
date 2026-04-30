@@ -1,4 +1,4 @@
-FROM debian:bookworm-slim
+FROM debian:trixie-slim
 LABEL org.opencontainers.image.authors="vistalba"
 ARG DEBIAN_FRONTEND=noninteractive
 
